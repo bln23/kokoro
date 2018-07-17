@@ -1,3 +1,17 @@
-h1 {
-  color: pink;
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #19171a;
+  color: white;
+  width: 100%;
+}
+
+ul li {
+  list-style: none;
+}
+
+footer {
+  width: 100%;
 }
