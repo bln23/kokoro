@@ -2,9 +2,14 @@ body {
   margin: 0;
 }
 
+/*header*/
 .header {
   background-color: #19171a;
   color: white;
+  width: 100%;
+}
+
+.image-principal {
   width: 100%;
 }
 
@@ -12,11 +17,44 @@ ul li {
   list-style: none;
 }
 
+/*section belts*/
+.flechas {
+  width: 100px;
+  height: 36px;
+}
+
+.belts{
+  background-color: #e6e6e6;
+  margin: 0 auto;
+  padding-bottom: 60px;
+  }
+
+  .tittle-belts{
+    padding-top: 30px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 1.25;
+  }
+    /* @media all and (min-width: 768px){
+      padding: 30px 0;
+    }
+    /* @media all and (min-width: 1024px){
+      padding-top: 60px;
+    } */
+
+
 .belt {
 width: 300px;
 height: 116px;
 }
 
+ul {
+display: grid;
+grid-column: 300px 300px;
+}
+
+/*footer*/
 footer {
   width: 100%;
 }
