@@ -33,7 +33,7 @@ h2 {
 .principal-container-belts {
   background-color: #e6e6e6;
   margin: 0 auto;
-  padding: 60px 80px 20px;
+  padding: 60px 45px 20px;
 }
 
 .flechas {
@@ -56,14 +56,13 @@ h2 {
   text-align: center;
 }
 
-
 .belt-image {
-width: 200px;
-height: 80px;
+width: 126px;
+height: 55px;
 }
 
 .belt-text {
-  padding: 10px 35px 63px;
+  padding: 10px 0 63px;
 }
 
 /*footer*/
@@ -85,10 +84,35 @@ footer {
   width: 150px;
   height: 26px;
   }
+
+  .belt-image {
+  width: 200px;
+  height: 80px;
+  }
+
+  .principal-container-belts {
+    padding: 60px 80px 20px;
+  }
+
+  .belt-text {
+    padding: 10px 35px 63px;
+  }
 }
 @media all and (max-width: 767px){
   h2  {
-    padding: 0 6px;
-   font-size: 14px;
+    padding: 0px 3px;
+    font-size: 18px;
     }
+
+  h3{
+    font-size: 14px;
+  }
+
+  h4 {
+    font-size: 10px;
+  }
+
+  p{
+    font-size: 8px;
+  }
 }
