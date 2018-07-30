@@ -38,10 +38,6 @@ header {
   border: 1px solid #ffffff;
 }
 
-a {
-  
-}
-
 ul li {
   list-style: none;
 }
@@ -63,7 +59,7 @@ h2 {
 }
 
 .flechas {
-  width: 82px;
+  width: 48px;
   height: 17px;
 }
 
@@ -127,18 +123,18 @@ footer {
 @media all and (max-width: 767px){
   h2  {
     padding: 0px 3px;
-    font-size: 18px;
+    font-size: 24px;
     }
 
   h3{
-    font-size: 14px;
+    font-size: 20px;
   }
 
   h4 {
-    font-size: 10px;
+    font-size: 18px;
   }
 
   p{
-    font-size: 8px;
+    font-size: 15px;
   }
 }
