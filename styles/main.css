@@ -20,7 +20,6 @@ header {
 
 .menu-nav {
   display: flex;
-  align-items: flex-end;
   justify-content: center;
   width: 100%;
 }
@@ -29,13 +28,17 @@ header {
   list-style: none;
   display: flex;
   flex-direction: row;
-  align-self: center;
+  align-self: flex-end;
+  padding-bottom: 150px;
 }
 
 .menu-nav ul li a {
   color: #ffffff;
   text-decoration: none;
   border: 1px solid #ffffff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
 }
 
 ul li {
@@ -118,6 +121,11 @@ footer {
 
   .belt-text {
     padding: 10px 35px 63px;
+  }
+
+  ul li {
+    padding-left: 20px;
+    padding-top: 150px;
   }
 }
 @media all and (max-width: 767px){
