@@ -5,8 +5,6 @@
   font-family: 'Cormorant', serif;
 }
 
-/*header*/
-
 header {
   background-image: url('../images/portada.png');
   height: 100vh;
@@ -17,13 +15,11 @@ header {
   color: #ffffff;
   display: flex;
 }
-
 .menu-nav {
   display: flex;
   justify-content: center;
   width: 100%;
 }
-
 .menu-nav ul {
   list-style: none;
   display: flex;
@@ -31,7 +27,6 @@ header {
   align-self: flex-end;
   padding-bottom: 30px;
 }
-
 .menu-nav ul li a {
   color: #ffffff;
   text-decoration: none;
@@ -39,64 +34,48 @@ header {
   padding: 8px;
   font-size: 14px;
 }
-
 ul li {
   list-style: none;
   padding: 20px;
   text-align: center;
 }
 
-/*section belts*/
-
 h3 {
   padding-bottom: 24px;
 }
-
 h2 {
   padding: 0 35px;
 }
-
 .principal-container-belts {
   background-color: #ffffff;
   margin: 0 auto;
   padding: 60px 45px 20px;
 }
-
 .flechas {
   width: 48px;
   height: 17px;
 }
-
-.tittle-belts{
+.belts-title {
   display: flex;
   justify-content: center;
   padding: 0 30px 75px 30px;
   font-size: 24px;
   font-weight: bold;
-  }
-    /* @media all and (min-width: 1024px){
-      padding-top: 60px;
-    } */
-
+}
 .belts {
   text-align: center;
 }
-
 .belt-image {
-width: 126px;
-height: 55px;
+  width: 126px;
+  height: 55px;
 }
-
 .belt-text {
   padding: 10px 0 63px;
 }
 
-/*footer*/
 footer {
   width: 100%;
 }
-
-/* media querys */
 
 @media all and (min-width: 768px) {
   .belts {
@@ -105,48 +84,42 @@ footer {
     grid-template-rows: 10%;
     grid-gap: 5px;
   }
-
   .flechas {
-  width: 150px;
-  height: 26px;
+    width: 150px;
+    height: 26px;
   }
-
   .belt-image {
-  width: 200px;
-  height: 80px;
+    width: 200px;
+    height: 80px;
   }
-
   .principal-container-belts {
     padding: 60px 80px 20px;
   }
-
   .belt-text {
     padding: 10px 35px 63px;
   }
-
   ul li {
     padding-left: 20px;
     padding-bottom: 117px;
   }
   .menu-nav ul {
     flex-direction: row;
-    padding-bottom: 150px;
+  }
+  .menu-nav ul li a {
+    font-size: 16px;
   }
 }
 @media all and (max-width: 767px){
   h2  {
     padding: 0px 3px;
     font-size: 24px;
-    }
-
+  }
   h3{
     font-size: 22px;
   }
-
   h4 {
     font-size: 20px;
   }
-
   p{
     font-size: 18px;
   }
