@@ -27,9 +27,9 @@ header {
 .menu-nav ul {
   list-style: none;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   align-self: flex-end;
-  padding-bottom: 150px;
+  padding-bottom: 30px;
 }
 
 .menu-nav ul li a {
@@ -37,12 +37,12 @@ header {
   text-decoration: none;
   border: 1px solid #ffffff;
   padding: 20px;
-  display: flex;
-  flex-direction: column;
 }
 
 ul li {
   list-style: none;
+  padding: 20px;
+  text-align: center;
 }
 
 /*section belts*/
@@ -125,7 +125,11 @@ footer {
 
   ul li {
     padding-left: 20px;
-    padding-top: 150px;
+    padding-bottom: 117px;
+  }
+  .menu-nav ul {
+    flex-direction: row;
+    padding-bottom: 150px;
   }
 }
 @media all and (max-width: 767px){
