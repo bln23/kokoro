@@ -36,7 +36,8 @@ header {
   color: #ffffff;
   text-decoration: none;
   border: 1px solid #ffffff;
-  padding: 20px;
+  padding: 8px;
+  font-size: 14px;
 }
 
 ul li {
