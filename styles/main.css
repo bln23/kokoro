@@ -51,7 +51,7 @@ h2 {
   margin: 0 auto;
   padding: 60px 45px 20px;
 }
-.flechas {
+.arrows {
   width: 48px;
   height: 17px;
 }
@@ -84,7 +84,7 @@ footer {
     grid-template-rows: 10%;
     grid-gap: 5px;
   }
-  .flechas {
+  .arrows {
     width: 150px;
     height: 26px;
   }
