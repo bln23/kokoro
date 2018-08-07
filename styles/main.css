@@ -45,6 +45,7 @@ h3 {
 }
 h2 {
   padding: 0 35px;
+  text-align: center;
 }
 .principal-container-belts {
   background-color: #ffffff;
@@ -70,7 +71,7 @@ h2 {
   height: 55px;
 }
 .belt-text {
-  padding: 10px 0 63px;
+  padding: 10px 0 16px;
 }
 
 footer {
@@ -96,11 +97,11 @@ footer {
     padding: 60px 80px 20px;
   }
   .belt-text {
-    padding: 10px 35px 63px;
+    padding: 10px 35px 8px;
   }
   ul li {
     padding-left: 20px;
-    padding-bottom: 117px;
+    adding-bottom: 50px;
   }
   .menu-nav ul {
     flex-direction: row;
